@@ -1,0 +1,395 @@
+                    :root {
+                       --rosa: rgb(255, 192, 203);
+                       --amarelo: rgb(255, 255, 213);
+                   }
+                   
+                   @font-face {
+                       font-family: "odara";
+                       src: url(/font/ITCKabelStd-Book.ttf);
+                   }
+                   /*-----------------------------------------------------*/
+                   
+                   body {
+                       font-family: 'odara';
+                       /*deixa os conteudos abaixo do menu*/
+                       padding-top: 100px;
+                       background-image: url('fundo-bg3.png');
+                       background-repeat: repeat;
+                   }
+                   /* Aqui começam as configurações dos elementos do header*/
+                   
+                   header {
+                       margin-bottom: 40px;
+                   }
+                   
+                   nav {
+                       background-image: linear-gradient(to left, rgb(255, 255, 124), pink);
+                       margin-bottom: 40px;
+                   }
+                   
+                   .h1-principal {
+                       font-weight: bolder;
+                       font-size: 50px;
+                       text-align: center;
+                       font-family: serif;
+                   }
+                   /*Estilização dos Links*/
+                   
+                   .navegacao {
+                       text-align: center;
+                   }
+                   
+                   .navegacao a {
+                       color: black;
+                       font-weight: bolder;
+                       transition: 0.3s;
+                   }
+                   
+                   .navegacao a:hover {
+                       transition: 0.3s;
+                       border-radius: 25px;
+                       color: white
+                   }
+                   /* Aqui acabam as configurações do header*/
+                   /*descrição das imagens em italico*/
+                   
+                   figcaption {
+                       font-style: italic;
+                   }
+                   /*configurações de imagem*/
+                   
+                   .fundadoraimg,
+                   .coordenadoraimg,
+                   .relacionamento-img {
+                       background-color: #fff2b5;
+                       border: 1px solid #ccc;
+                       float: right;
+                       clear: both;
+                   }
+                   
+                   .fundadora,
+                   footer {
+                       clear: both;
+                   }
+                   
+                   .img-1-home {
+                       float: right;
+                   }
+                   
+                   .img-float-right {
+                       border-radius: 30%;
+                   }
+                   
+                   .img-desenvolvedores {
+                       height: 200px;
+                       width: 250px;
+                       border-radius: 50%;
+                   }
+                   
+                   .img-niveis {
+                       margin-bottom: 20px;
+                       float: right;
+                       border-radius: 30%;
+                   }
+                   
+                   .img-borda {
+                       border-radius: 30%;
+                   }
+                   /* configurações de texto*/
+                   
+                   p {
+                       margin-right: 10px;
+                       font-weight: 500
+                   }
+                   
+                   .colaboradores h2 {
+                       clear: both;
+                       text-align: center;
+                       font-size: 19px;
+                       margin: 15px;
+                   }
+                   
+                   .colaboradores h3 {
+                       text-align: center;
+                   }
+                   
+                   .equipe h3 {
+                       text-align: center;
+                   }
+                   
+                   ul {
+                       font-size: 20px;
+                       list-style-type: none;
+                   }
+                   
+                   #h2-sobre {
+                       font-size: 40px;
+                       text-align: center;
+                       font-weight: bolder;
+                   }
+                   
+                   h3 {
+                       font-size: 25px;
+                       font-weight: bold;
+                       text-transform: uppercase;
+                   }
+                   
+                   .h1-quiz {
+                       text-align: center;
+                   }
+                   
+                   .desenvolvedores a {
+                       margin-right: 15px;
+                       color: black;
+                       text-decoration: none;
+                   }
+                   
+                   .links a {
+                       margin-bottom: 15px;
+                   }
+                   
+                   .links img:hover {
+                       transition: box-shadow 0.7s;
+                       transform: scale(1.3) rotate(-2.5deg);
+                   }
+                   
+                   .texto-sobre p {
+                       margin-top: 50px;
+                   }
+                   
+                   .card-odara {
+                       border-radius: 15px;
+                       border: 1px solid black;
+                       background-color: white;
+                       padding: 15px;
+                   }
+                   /* configurações para deixar o texto legível*/
+                   
+                   p,
+                   h2,
+                   h4 {
+                       letter-spacing: 0.3px;
+                       margin: 10px;
+                       line-height: 30px;
+                   }
+                   
+                   .destaque-home {
+                       text-align: center;
+                   }
+                   
+                   #desenvolvedores {
+                       text-align: center;
+                   }
+                   
+                   .gifs {
+                       border-radius: 25px;
+                   }
+                   /* Carrossel */
+                   
+                   .img-depoimentos {
+                       float: left;
+                       margin-right: 6px;
+                   }
+                   
+                   .card-depoimento h5 {
+                       text-align: left;
+                   }
+                   
+                   .card-depoimento p {
+                       text-align: center;
+                   }
+                   
+                   .depoimentos-carrossel {
+                       text-align: center;
+                   }
+                   
+                   .depo-car {
+                       margin-top: 5rem;
+                   }
+                   
+                   .depo-car h3 {
+                       text-align: center;
+                   }
+                   
+                   .depo-cartao {
+                       width: 20rem;
+                       height: 15rem;
+                   }
+                   
+                   .card-depoimento-jes p {
+                       margin-top: 1.2rem;
+                   }
+                   /*fim*/
+                   /*Planos*/
+                   
+                   .cartao {
+                       margin-bottom: 3rem;
+                   }
+                   
+                   .planos {
+                       margin-top: 3rem;
+                   }
+                   
+                   .img-depoimentos {
+                       height: 2rem;
+                   }
+                   
+                   .card-depoimento h5 {
+                       margin-top: 0.3rem;
+                   }
+                   /*Fim*/
+                   
+                   .colaboradores {
+                       display: flex;
+                       justify-content: center;
+                   }
+                   
+                   .cola {
+                       margin: 8px;
+                   }
+                   
+                   figcaption {
+                       text-align: center;
+                   }
+                   
+                   .img-cola {
+                       height: 7rem;
+                   }
+                   
+                   .img-cola:hover {
+                       /* box-shadow: 0 0 5px #333;*/
+                       transition: box-shadow 0.7s;
+                       transform: scale(1.3) rotate(-2.5deg);
+                   }
+                   
+                   .cola h5 {
+                       text-align: center;
+                       font-size: 15px;
+                       font-weight: bold;
+                       margin-top: 1rem;
+                   }
+                   
+                   .cola p {
+                       font-size: 12px;
+                   }
+                   /*desenvolvedores*/
+                   
+                   .links {
+                       display: flex;
+                       justify-content: center;
+                   }
+                   
+                   @media (min-width: 769px) {
+                       /* Carrossel */
+                       .img-depoimentos {
+                           height: 10rem;
+                           margin-top: 2rem;
+                           margin-right: 1rem;
+                       }
+                       .card-depoimento h5 {
+                           margin-top: 1rem;
+                       }
+                       .depo-car {
+                           margin: 2em 0em;
+                       }
+                       .depo-cartao {
+                           width: 38rem;
+                           height: 17rem;
+                       }
+                       .depo-cartao h5 {
+                           margin-bottom: 0.3rem;
+                       }
+                       .depo-cartao p {
+                           margin-bottom: 1rem;
+                       }
+                       .card-depoimento-jes p {
+                           margin-top: 1rem;
+                           margin-bottom: 1.2rem;
+                       }
+                       /* Fim */
+                       /*Planos*/
+                       .cartao-planos {
+                           display: flex;
+                           justify-content: center;
+                       }
+                       .cartao {
+                           margin: 0rem 2rem;
+                       }
+                       /*Fim*/
+                       .gifdepo {}
+                       .textodepo {
+                           float: left;
+                       }
+                       .img-home {
+                           margin-bottom: 20px;
+                           float: right;
+                           border-radius: 30%;
+                       }
+                   }
+                   
+                   @media(max-width:991px) {
+                       .referencias ul {
+                           float: left;
+                       }
+                       .img-1-home {
+                           clear: left;
+                           text-align: center;
+                       }
+                   }
+                   /* configurações de footer*/
+                   
+                   footer {
+                       background-color: rgb(255, 189, 225);
+                       padding-bottom: 3px;
+                   }
+                   
+                   footer h2 {
+                       text-align: center;
+                       font-weight: bolder;
+                   }
+                   
+                   .botoes-contato {
+                       display: inline;
+                       margin-bottom: 30px;
+                   }
+                   
+                   .botoes-contato a {
+                       margin-right: 10px;
+                   }
+                   
+                   .botoes-img:hover {
+                       transition: box-shadow 0.7s;
+                       transform: scale(1.3) rotate(-2.5deg);
+                   }
+                   
+                   footer ul {
+                       margin-top: 15px;
+                   }
+                   
+                   #faq {
+                       position: relative;
+                       right: 16px;
+                   }
+                   
+                   footer ul li a {
+                       color: black;
+                       text-decoration: underline;
+                   }
+                   
+                   footer ul li a:hover {
+                       transition: 0.4s;
+                       color: white;
+                       opacity: 0.3s;
+                   }
+                   
+                   .central {
+                       text-align: center;
+                   }
+                   
+                   p,
+                   h2,
+                   h3,
+                   h4,
+                   ul {
+                       font-family: 'sans-serif';
+                   }
