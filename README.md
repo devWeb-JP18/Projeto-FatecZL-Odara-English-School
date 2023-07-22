@@ -9,7 +9,7 @@ Sobre a Odara:
 
 A Odara English School é uma escola de inglês, que transmite os seus ensinamentos através de elementos descolonizadores, e com uma cultura afrocentrada. Abarcando as populações preta, indígena, e LGBTQIA+, dentro destes espectros. A mesma possui o desejo em criar um ambiente de acolhimento e troca entre os alunos e os professores, onde possam compartilhar as suas vivências e criar laços de luta e escuta.
 
-Intrgrantes:
+Integrantes:
 
 • Gabriel Almeida Ferreira
 
@@ -18,3 +18,5 @@ Intrgrantes:
 • Johnny Santos do Nascimento 
 
 • Nelson Firmino Santos Silva
+
+Link do projeto: https://odaraenglishschool.com.br/
